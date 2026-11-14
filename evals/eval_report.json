@@ -1,0 +1,94 @@
+{
+  "cases": {
+    "broken-delta-mismatch": {
+      "detected": true,
+      "expected_rule": "text_reassembly",
+      "failed_rules": [
+        "text_reassembly"
+      ],
+      "isolated": true,
+      "kind": "broken"
+    },
+    "broken-malformed-payload": {
+      "detected": true,
+      "expected_rule": "payload_schema",
+      "failed_rules": [
+        "payload_schema"
+      ],
+      "isolated": true,
+      "kind": "broken"
+    },
+    "broken-missing-terminal": {
+      "detected": true,
+      "expected_rule": "terminal_present",
+      "failed_rules": [
+        "terminal_present"
+      ],
+      "isolated": true,
+      "kind": "broken"
+    },
+    "broken-out-of-order": {
+      "detected": true,
+      "expected_rule": "lifecycle_order",
+      "failed_rules": [
+        "lifecycle_order"
+      ],
+      "isolated": true,
+      "kind": "broken"
+    },
+    "broken-state-patch": {
+      "detected": true,
+      "expected_rule": "state_patch_chain",
+      "failed_rules": [
+        "state_patch_chain"
+      ],
+      "isolated": true,
+      "kind": "broken"
+    },
+    "broken-tool-args-json": {
+      "detected": true,
+      "expected_rule": "tool_args_reassembly",
+      "failed_rules": [
+        "tool_args_reassembly"
+      ],
+      "isolated": true,
+      "kind": "broken"
+    },
+    "clean-error-terminal": {
+      "detected": true,
+      "expected_rule": null,
+      "failed_rules": [],
+      "isolated": true,
+      "kind": "clean"
+    },
+    "clean-multi-utterance": {
+      "detected": true,
+      "expected_rule": null,
+      "failed_rules": [],
+      "isolated": true,
+      "kind": "clean"
+    },
+    "clean-text-only": {
+      "detected": true,
+      "expected_rule": null,
+      "failed_rules": [],
+      "isolated": true,
+      "kind": "clean"
+    },
+    "clean-tool-and-state": {
+      "detected": true,
+      "expected_rule": null,
+      "failed_rules": [],
+      "isolated": true,
+      "kind": "clean"
+    }
+  },
+  "summary": {
+    "broken_detected": 6,
+    "broken_total": 6,
+    "clean_passing": 4,
+    "clean_total": 4,
+    "sessions_passing": 4,
+    "sessions_total": 10
+  }
+}
