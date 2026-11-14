@@ -1,0 +1,5 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "broken-state-patch", "type": "session_open"}
+{"seq": 1, "session_id": "broken-state-patch", "state": {"cart": {"count": 1}}, "type": "state_full"}
+{"patch": [{"op": "set", "path": "cart.count", "value": 2}], "seq": 2, "session_id": "broken-state-patch", "type": "state_patch"}
+{"seq": 3, "session_id": "broken-state-patch", "state": {"cart": {"count": 3}}, "type": "state_full"}
+{"seq": 4, "session_id": "broken-state-patch", "status": "completed", "type": "session_close"}
