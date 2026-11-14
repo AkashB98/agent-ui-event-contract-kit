@@ -1,0 +1,26 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "clean-multi", "type": "session_open"}
+{"role": "assistant", "seq": 1, "session_id": "clean-multi", "type": "utterance_begin", "utterance_id": "u1"}
+{"delta": "Firs", "seq": 2, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "t p", "seq": 3, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "art.", "seq": 4, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u1"}
+{"final_text": "First part.", "seq": 5, "session_id": "clean-multi", "type": "utterance_seal", "utterance_id": "u1"}
+{"invocation_id": "i1", "seq": 6, "session_id": "clean-multi", "tool_name": "search_docs", "type": "invocation_begin"}
+{"args_delta": "{\"qu", "invocation_id": "i1", "seq": 7, "session_id": "clean-multi", "type": "invocation_args_chunk"}
+{"args_delta": "ery", "invocation_id": "i1", "seq": 8, "session_id": "clean-multi", "type": "invocation_args_chunk"}
+{"args_delta": "\": \"r", "invocation_id": "i1", "seq": 9, "session_id": "clean-multi", "type": "invocation_args_chunk"}
+{"args_delta": "ef", "invocation_id": "i1", "seq": 10, "session_id": "clean-multi", "type": "invocation_args_chunk"}
+{"args_delta": "und po", "invocation_id": "i1", "seq": 11, "session_id": "clean-multi", "type": "invocation_args_chunk"}
+{"args_delta": "licy", "invocation_id": "i1", "seq": 12, "session_id": "clean-multi", "type": "invocation_args_chunk"}
+{"args_delta": "\"}", "invocation_id": "i1", "seq": 13, "session_id": "clean-multi", "type": "invocation_args_chunk"}
+{"invocation_id": "i1", "seq": 14, "session_id": "clean-multi", "type": "invocation_end"}
+{"role": "assistant", "seq": 15, "session_id": "clean-multi", "type": "utterance_begin", "utterance_id": "u2"}
+{"delta": "Seco", "seq": 16, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"delta": "nd ", "seq": 17, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"delta": "part,", "seq": 18, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"delta": " w", "seq": 19, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"delta": "ith th", "seq": 20, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"delta": "e an", "seq": 21, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"delta": "swe", "seq": 22, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"delta": "r.", "seq": 23, "session_id": "clean-multi", "type": "utterance_chunk", "utterance_id": "u2"}
+{"final_text": "Second part, with the answer.", "seq": 24, "session_id": "clean-multi", "type": "utterance_seal", "utterance_id": "u2"}
+{"seq": 25, "session_id": "clean-multi", "status": "completed", "type": "session_close"}
