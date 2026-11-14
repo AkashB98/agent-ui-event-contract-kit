@@ -1,0 +1,14 @@
+{
+  "broken-delta-mismatch": "text_reassembly",
+  "broken-malformed-payload": "payload_schema",
+  "broken-missing-terminal": "terminal_present",
+  "broken-out-of-order": "lifecycle_order",
+  "broken-state-patch": "state_patch_chain",
+  "broken-tool-args-json": "tool_args_reassembly",
+  "clean": [
+    "clean-error-terminal",
+    "clean-multi-utterance",
+    "clean-text-only",
+    "clean-tool-and-state"
+  ]
+}
