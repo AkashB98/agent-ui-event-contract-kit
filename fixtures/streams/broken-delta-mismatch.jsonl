@@ -1,0 +1,6 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "broken-delta-mismatch", "type": "session_open"}
+{"role": "assistant", "seq": 1, "session_id": "broken-delta-mismatch", "type": "utterance_begin", "utterance_id": "u1"}
+{"delta": "The total is ", "seq": 2, "session_id": "broken-delta-mismatch", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "$41.", "seq": 3, "session_id": "broken-delta-mismatch", "type": "utterance_chunk", "utterance_id": "u1"}
+{"final_text": "The total is $42.", "seq": 4, "session_id": "broken-delta-mismatch", "type": "utterance_seal", "utterance_id": "u1"}
+{"seq": 5, "session_id": "broken-delta-mismatch", "status": "completed", "type": "session_close"}
