@@ -1,0 +1,9 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "broken-malformed", "type": "session_open"}
+{"invocation_id": "i1", "seq": 1, "session_id": "broken-malformed", "type": "invocation_begin"}
+{"args_delta": "{\"ok\": true}", "invocation_id": "i1", "seq": 2, "session_id": "broken-malformed", "type": "invocation_args_chunk"}
+{"invocation_id": "i1", "seq": 3, "session_id": "broken-malformed", "type": "invocation_end"}
+{"role": "assistant", "seq": 4, "session_id": "broken-malformed", "type": "utterance_begin", "utterance_id": "u1"}
+{"delta": "Done", "seq": 5, "session_id": "broken-malformed", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": ".", "seq": 6, "session_id": "broken-malformed", "type": "utterance_chunk", "utterance_id": "u1"}
+{"final_text": "Done.", "seq": 7, "session_id": "broken-malformed", "type": "utterance_seal", "utterance_id": "u1"}
+{"seq": 8, "session_id": "broken-malformed", "status": "completed", "type": "session_close"}
