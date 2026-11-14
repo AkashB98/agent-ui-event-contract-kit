@@ -1,0 +1,20 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "clean-tool-state", "type": "session_open"}
+{"seq": 1, "session_id": "clean-tool-state", "state": {"cart": {"count": 1}, "step": "pick"}, "type": "state_full"}
+{"patch": [{"op": "set", "path": "cart.count", "value": 2}, {"op": "set", "path": "step", "value": "pay"}], "seq": 2, "session_id": "clean-tool-state", "type": "state_patch"}
+{"seq": 3, "session_id": "clean-tool-state", "state": {"cart": {"count": 2}, "step": "pay"}, "type": "state_full"}
+{"invocation_id": "i1", "seq": 4, "session_id": "clean-tool-state", "tool_name": "lookup_price", "type": "invocation_begin"}
+{"args_delta": "{\"qt", "invocation_id": "i1", "seq": 5, "session_id": "clean-tool-state", "type": "invocation_args_chunk"}
+{"args_delta": "y\":", "invocation_id": "i1", "seq": 6, "session_id": "clean-tool-state", "type": "invocation_args_chunk"}
+{"args_delta": " 2, \"", "invocation_id": "i1", "seq": 7, "session_id": "clean-tool-state", "type": "invocation_args_chunk"}
+{"args_delta": "sk", "invocation_id": "i1", "seq": 8, "session_id": "clean-tool-state", "type": "invocation_args_chunk"}
+{"args_delta": "u\": \"A", "invocation_id": "i1", "seq": 9, "session_id": "clean-tool-state", "type": "invocation_args_chunk"}
+{"args_delta": "-1\"}", "invocation_id": "i1", "seq": 10, "session_id": "clean-tool-state", "type": "invocation_args_chunk"}
+{"invocation_id": "i1", "seq": 11, "session_id": "clean-tool-state", "type": "invocation_end"}
+{"role": "assistant", "seq": 12, "session_id": "clean-tool-state", "type": "utterance_begin", "utterance_id": "u1"}
+{"delta": "Your", "seq": 13, "session_id": "clean-tool-state", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": " to", "seq": 14, "session_id": "clean-tool-state", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "tal i", "seq": 15, "session_id": "clean-tool-state", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "s ", "seq": 16, "session_id": "clean-tool-state", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "ready.", "seq": 17, "session_id": "clean-tool-state", "type": "utterance_chunk", "utterance_id": "u1"}
+{"final_text": "Your total is ready.", "seq": 18, "session_id": "clean-tool-state", "type": "utterance_seal", "utterance_id": "u1"}
+{"seq": 19, "session_id": "clean-tool-state", "status": "completed", "type": "session_close"}
