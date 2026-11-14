@@ -1,0 +1,9 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "broken-missing-terminal", "type": "session_open"}
+{"role": "assistant", "seq": 1, "session_id": "broken-missing-terminal", "type": "utterance_begin", "utterance_id": "u1"}
+{"delta": "This", "seq": 2, "session_id": "broken-missing-terminal", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": " st", "seq": 3, "session_id": "broken-missing-terminal", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "ream ", "seq": 4, "session_id": "broken-missing-terminal", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "ju", "seq": 5, "session_id": "broken-missing-terminal", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "st sto", "seq": 6, "session_id": "broken-missing-terminal", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "ps.", "seq": 7, "session_id": "broken-missing-terminal", "type": "utterance_chunk", "utterance_id": "u1"}
+{"final_text": "This stream just stops.", "seq": 8, "session_id": "broken-missing-terminal", "type": "utterance_seal", "utterance_id": "u1"}
