@@ -1,0 +1,9 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "clean-text", "type": "session_open"}
+{"role": "assistant", "seq": 1, "session_id": "clean-text", "type": "utterance_begin", "utterance_id": "u1"}
+{"delta": "The ", "seq": 2, "session_id": "clean-text", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "rep", "seq": 3, "session_id": "clean-text", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "ort i", "seq": 4, "session_id": "clean-text", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "s ", "seq": 5, "session_id": "clean-text", "type": "utterance_chunk", "utterance_id": "u1"}
+{"delta": "ready.", "seq": 6, "session_id": "clean-text", "type": "utterance_chunk", "utterance_id": "u1"}
+{"final_text": "The report is ready.", "seq": 7, "session_id": "clean-text", "type": "utterance_seal", "utterance_id": "u1"}
+{"seq": 8, "session_id": "clean-text", "status": "completed", "type": "session_close"}
