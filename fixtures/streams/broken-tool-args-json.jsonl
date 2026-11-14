@@ -1,0 +1,6 @@
+{"agent_id": "demo-agent", "seq": 0, "session_id": "broken-tool-args", "type": "session_open"}
+{"invocation_id": "i1", "seq": 1, "session_id": "broken-tool-args", "tool_name": "lookup_price", "type": "invocation_begin"}
+{"args_delta": "{\"city\": \"Dallas\",", "invocation_id": "i1", "seq": 2, "session_id": "broken-tool-args", "type": "invocation_args_chunk"}
+{"args_delta": "}", "invocation_id": "i1", "seq": 3, "session_id": "broken-tool-args", "type": "invocation_args_chunk"}
+{"invocation_id": "i1", "seq": 4, "session_id": "broken-tool-args", "type": "invocation_end"}
+{"seq": 5, "session_id": "broken-tool-args", "status": "completed", "type": "session_close"}
